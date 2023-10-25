@@ -20,6 +20,10 @@ public class IterativeMethods {
 		return sum;
 	}
 
+	// Sum + 0.5^(1) + 0.5^(2) + 0.5^(3) ... + 0.5^(n)
+	
+	
+	
 	/**
 	 * @param p first operand
 	 * @param q second operand
@@ -54,3 +58,9 @@ public class IterativeMethods {
 		return reversed;
 	}
 }
+
+// we find a last index (array.length - 1)
+// we create a mirror index (lastIndex - index)
+// mirrorIndex = reversed Index
+// Index = reversed mirror Index
+// 
